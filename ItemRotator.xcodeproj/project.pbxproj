@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C922E0482AF14972007C33F0 /* ItemRotatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0472AF14972007C33F0 /* ItemRotatorApp.swift */; };
-		C922E04A2AF14972007C33F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0492AF14972007C33F0 /* ContentView.swift */; };
+		C922E04A2AF14972007C33F0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0492AF14972007C33F0 /* MainView.swift */; };
 		C922E04C2AF14974007C33F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C922E04B2AF14974007C33F0 /* Assets.xcassets */; };
 		C922E04F2AF14974007C33F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C922E04E2AF14974007C33F0 /* Preview Assets.xcassets */; };
 		C922E0512AF14974007C33F0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0502AF14974007C33F0 /* Persistence.swift */; };
@@ -16,6 +16,19 @@
 		C922E0602AF14975007C33F0 /* ItemRotatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E05F2AF14975007C33F0 /* ItemRotatorTests.swift */; };
 		C922E06A2AF14975007C33F0 /* ItemRotatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0692AF14975007C33F0 /* ItemRotatorUITests.swift */; };
 		C922E06C2AF14975007C33F0 /* ItemRotatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E06B2AF14975007C33F0 /* ItemRotatorUITestsLaunchTests.swift */; };
+		C922E07A2AF14CDD007C33F0 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0782AF14CDD007C33F0 /* Item+CoreDataClass.swift */; };
+		C922E07E2AF1525B007C33F0 /* Queue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E07C2AF1525B007C33F0 /* Queue+CoreDataClass.swift */; };
+		C922E0812AF15578007C33F0 /* MainViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0802AF15578007C33F0 /* MainViewVM.swift */; };
+		C922E0842AF156F2007C33F0 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0832AF156F2007C33F0 /* DI.swift */; };
+		C922E0862AF15711007C33F0 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0852AF15711007C33F0 /* Values.swift */; };
+		C922E0882AF16CC2007C33F0 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0872AF16CC2007C33F0 /* QueueView.swift */; };
+		C922E08A2AF16CF1007C33F0 /* QueueViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0892AF16CF1007C33F0 /* QueueViewVM.swift */; };
+		C922E08D2AF174E3007C33F0 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E08C2AF174E3007C33F0 /* ListItem.swift */; };
+		C922E0912AF1A1CA007C33F0 /* SelfUncheckingCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0902AF1A1CA007C33F0 /* SelfUncheckingCheckbox.swift */; };
+		C922E0952AF1B18E007C33F0 /* EditItemNameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922E0942AF1B18E007C33F0 /* EditItemNameTextField.swift */; };
+		C931AA6D2AF65C9000C1A2C4 /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931AA6C2AF65C9000C1A2C4 /* Publisher.swift */; };
+		C931AA6F2AF66D2200C1A2C4 /* UIEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931AA6E2AF66D2200C1A2C4 /* UIEvents.swift */; };
+		C9A39CD82B0137B6002DB7FA /* KeyboardEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A39CD72B0137B6002DB7FA /* KeyboardEvents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +51,7 @@
 /* Begin PBXFileReference section */
 		C922E0442AF14972007C33F0 /* ItemRotator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItemRotator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C922E0472AF14972007C33F0 /* ItemRotatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRotatorApp.swift; sourceTree = "<group>"; };
-		C922E0492AF14972007C33F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C922E0492AF14972007C33F0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C922E04B2AF14974007C33F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C922E04E2AF14974007C33F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C922E0502AF14974007C33F0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -50,6 +63,19 @@
 		C922E0652AF14975007C33F0 /* ItemRotatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemRotatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C922E0692AF14975007C33F0 /* ItemRotatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRotatorUITests.swift; sourceTree = "<group>"; };
 		C922E06B2AF14975007C33F0 /* ItemRotatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRotatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C922E0782AF14CDD007C33F0 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C922E07C2AF1525B007C33F0 /* Queue+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Queue+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C922E0802AF15578007C33F0 /* MainViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewVM.swift; sourceTree = "<group>"; };
+		C922E0832AF156F2007C33F0 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
+		C922E0852AF15711007C33F0 /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		C922E0872AF16CC2007C33F0 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		C922E0892AF16CF1007C33F0 /* QueueViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueViewVM.swift; sourceTree = "<group>"; };
+		C922E08C2AF174E3007C33F0 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		C922E0902AF1A1CA007C33F0 /* SelfUncheckingCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfUncheckingCheckbox.swift; sourceTree = "<group>"; };
+		C922E0942AF1B18E007C33F0 /* EditItemNameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemNameTextField.swift; sourceTree = "<group>"; };
+		C931AA6C2AF65C9000C1A2C4 /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		C931AA6E2AF66D2200C1A2C4 /* UIEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIEvents.swift; path = ItemRotator/UIEvents.swift; sourceTree = SOURCE_ROOT; };
+		C9A39CD72B0137B6002DB7FA /* KeyboardEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEvents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +126,23 @@
 		C922E0462AF14972007C33F0 /* ItemRotator */ = {
 			isa = PBXGroup;
 			children = (
+				C931AA6B2AF65C7900C1A2C4 /* Events */,
+				C922E08B2AF174D5007C33F0 /* UILib */,
+				C922E0822AF156E5007C33F0 /* DI */,
+				C922E07C2AF1525B007C33F0 /* Queue+CoreDataClass.swift */,
+				C922E0782AF14CDD007C33F0 /* Item+CoreDataClass.swift */,
 				C922E0472AF14972007C33F0 /* ItemRotatorApp.swift */,
-				C922E0492AF14972007C33F0 /* ContentView.swift */,
+				C922E0492AF14972007C33F0 /* MainView.swift */,
+				C922E0802AF15578007C33F0 /* MainViewVM.swift */,
 				C922E04B2AF14974007C33F0 /* Assets.xcassets */,
 				C922E0502AF14974007C33F0 /* Persistence.swift */,
 				C922E0552AF14974007C33F0 /* ItemRotator.entitlements */,
 				C922E0562AF14974007C33F0 /* Info.plist */,
 				C922E0522AF14974007C33F0 /* ItemRotator.xcdatamodeld */,
 				C922E04D2AF14974007C33F0 /* Preview Content */,
+				C922E0872AF16CC2007C33F0 /* QueueView.swift */,
+				C922E0942AF1B18E007C33F0 /* EditItemNameTextField.swift */,
+				C922E0892AF16CF1007C33F0 /* QueueViewVM.swift */,
 			);
 			path = ItemRotator;
 			sourceTree = "<group>";
@@ -135,6 +170,34 @@
 				C922E06B2AF14975007C33F0 /* ItemRotatorUITestsLaunchTests.swift */,
 			);
 			path = ItemRotatorUITests;
+			sourceTree = "<group>";
+		};
+		C922E0822AF156E5007C33F0 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				C922E0832AF156F2007C33F0 /* DI.swift */,
+				C922E0852AF15711007C33F0 /* Values.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		C922E08B2AF174D5007C33F0 /* UILib */ = {
+			isa = PBXGroup;
+			children = (
+				C922E0902AF1A1CA007C33F0 /* SelfUncheckingCheckbox.swift */,
+				C922E08C2AF174E3007C33F0 /* ListItem.swift */,
+			);
+			path = UILib;
+			sourceTree = "<group>";
+		};
+		C931AA6B2AF65C7900C1A2C4 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				C931AA6E2AF66D2200C1A2C4 /* UIEvents.swift */,
+				C931AA6C2AF65C9000C1A2C4 /* Publisher.swift */,
+				C9A39CD72B0137B6002DB7FA /* KeyboardEvents.swift */,
+			);
+			path = Events;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +330,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C922E08D2AF174E3007C33F0 /* ListItem.swift in Sources */,
+				C922E0912AF1A1CA007C33F0 /* SelfUncheckingCheckbox.swift in Sources */,
+				C922E0842AF156F2007C33F0 /* DI.swift in Sources */,
+				C9A39CD82B0137B6002DB7FA /* KeyboardEvents.swift in Sources */,
+				C922E08A2AF16CF1007C33F0 /* QueueViewVM.swift in Sources */,
+				C922E0862AF15711007C33F0 /* Values.swift in Sources */,
+				C922E07A2AF14CDD007C33F0 /* Item+CoreDataClass.swift in Sources */,
+				C922E07E2AF1525B007C33F0 /* Queue+CoreDataClass.swift in Sources */,
 				C922E0512AF14974007C33F0 /* Persistence.swift in Sources */,
-				C922E04A2AF14972007C33F0 /* ContentView.swift in Sources */,
+				C922E04A2AF14972007C33F0 /* MainView.swift in Sources */,
+				C922E0952AF1B18E007C33F0 /* EditItemNameTextField.swift in Sources */,
+				C931AA6D2AF65C9000C1A2C4 /* Publisher.swift in Sources */,
 				C922E0542AF14974007C33F0 /* ItemRotator.xcdatamodeld in Sources */,
+				C931AA6F2AF66D2200C1A2C4 /* UIEvents.swift in Sources */,
+				C922E0812AF15578007C33F0 /* MainViewVM.swift in Sources */,
+				C922E0882AF16CC2007C33F0 /* QueueView.swift in Sources */,
 				C922E0482AF14972007C33F0 /* ItemRotatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -442,8 +518,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,8 +550,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +575,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BQ3H68CVJP;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.tilowerdin.ItemRotatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,7 +595,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BQ3H68CVJP;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.tilowerdin.ItemRotatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
